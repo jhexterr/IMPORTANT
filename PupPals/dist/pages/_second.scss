@@ -1,0 +1,29 @@
+.second{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    &-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+    }
+    &-text{
+        h1{
+            font-size: 4rem;
+        }
+        h2{
+            font-size: 2rem;
+            text-indent: 3rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 2rem;
+            text-indent: 3rem;
+            margin-top: 1rem;
+        }
+    }
+    &-logo{
+        img{
+            width: 50rem;
+        }
+    }
+}

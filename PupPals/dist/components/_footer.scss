@@ -1,0 +1,49 @@
+.footer{
+    background: $clr-green;
+    .container{
+        max-width: 200rem;
+        padding: 0;
+    }
+    &-logo{
+        border-bottom: 1px solid $clr-font;
+        width: 100%;
+        max-width: 190rem;
+        padding: 2rem;
+        h1{
+            text-align: center;
+            font-size: 3rem;
+            color: $clr-font;
+        }
+    }
+    &-icon{
+        // margin-top: 2rem;
+        padding: 2rem 7rem;
+        ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-left: 43rem;
+            li{
+                display: flex;
+                font-size: 2rem;
+                i{
+                    color: $clr-font;
+                    font-size: 3rem;
+                }
+                p{
+                    color: $clr-font;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+    &-text{
+        margin-left: 43rem;
+        p{
+            color: $clr-font;
+            font-size: 1rem;
+            padding: 2rem 7rem;
+        }
+    }
+}

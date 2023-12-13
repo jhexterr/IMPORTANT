@@ -1,0 +1,75 @@
+.fourth{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    &-service{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+        gap: 4rem;
+        line-height: 1.5;
+        &-one{
+            h3{
+                font-size: 2rem;
+            }
+            i{
+                font-size: 3rem;
+                color: $clr-green;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            p{
+                font-size: 1.8rem;
+            }
+        }
+        &-two{
+            h3{
+                font-size: 2rem;
+            }
+            i{
+                font-size: 3rem;
+                color: $clr-green;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            p{
+                font-size: 1.8rem;
+            }
+        }
+        &-three{
+            h3{
+                font-size: 2rem;
+            }
+            i{
+                font-size: 3rem;
+                color: $clr-green;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            p{
+                font-size: 1.8rem;
+            }
+        }
+        &-four{
+            h3{
+                font-size: 2rem;
+            }
+            i{
+                font-size: 3rem;
+                color: $clr-green;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            p{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.header{
+    width: 100%;
+    border-bottom: 1px solid;
+    position: fixed;
+    background: white;
+    &-nav{
+        ul{
+            display: flex;
+            gap: 3rem;
+            li{
+                &:hover{
+                    border: 1px solid #2b2b2b;
+                    border-radius: 24px;
+                    padding: 0.8rem;
+                    background: $clr-green;
+                }
+                a{
+                    font-size: 2rem;
+                    &:hover{
+                        color: $clr-font;
+                    }
+                }
+            }
+        }
+    }
+    &-wrapper{
+        @include centerAll;
+        height: 4rem;
+    }
+    &-icon{
+        float: left;
+        ul{
+            display: flex;
+            gap: 1rem;
+            li{
+                font-size: 3rem;
+                i{
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+    &-logo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        h1{
+            font-size: 4rem;
+            cursor: pointer;
+        }
+    }
+}

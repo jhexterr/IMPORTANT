@@ -1,0 +1,35 @@
+.first{
+    background: url("/img/wepik-export-20231212171925GzUH.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &-text{
+        margin-top: 25rem;
+        h1{
+            font-size: 5.5rem;
+        }
+        p{
+            font-size: 3.5rem;
+            margin-top: 2rem;
+            max-width: 92rem;
+        }
+    }
+    &-button{
+        margin-top: 2rem;
+        a{
+            border: 1px solid $clr-green;
+            font-size: 2.5rem;
+            color: $clr-font;
+            background: $clr-green;
+            border-radius: 4rem;
+            padding: 1rem 6rem;
+            display: inline-block;
+            transition: 0.5s ease;
+            &:hover{
+                transform: scale(1.1);
+                transition: 0.5s ease
+            }
+        }
+    }
+}

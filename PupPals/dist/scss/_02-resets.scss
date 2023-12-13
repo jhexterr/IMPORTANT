@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    color: $clr-green;
+    text-decoration: none;
+}
+h1{
+    color: $clr-green;
+}
+p{
+    color: $clr-green;
+}
