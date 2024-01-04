@@ -342,6 +342,49 @@ body {
   transition: 0.5s ease;
 }
 
+.dawgg {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  position: static;
+}
+.dawgg-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+}
+.dawgg-one, .dawgg-two, .dawgg-three, .dawgg-four, .dawgg-five, .dawgg-six, .dawgg-seven, .dawgg-eight {
+  padding: 1rem;
+  border-radius: 3rem;
+  line-height: 3rem;
+  box-shadow: 0px 20px 20.1276px rgb(55, 55, 55);
+}
+.dawgg-one:hover, .dawgg-two:hover, .dawgg-three:hover, .dawgg-four:hover, .dawgg-five:hover, .dawgg-six:hover, .dawgg-seven:hover, .dawgg-eight:hover {
+  transform: scale(1.1);
+}
+.dawgg-one img, .dawgg-two img, .dawgg-three img, .dawgg-four img, .dawgg-five img, .dawgg-six img, .dawgg-seven img, .dawgg-eight img {
+  width: 23rem;
+  height: 25rem;
+  cursor: pointer;
+}
+.dawgg-one a, .dawgg-two a, .dawgg-three a, .dawgg-four a, .dawgg-five a, .dawgg-six a, .dawgg-seven a, .dawgg-eight a {
+  font-size: 2rem;
+  border: 1px solid #152826;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  background-color: #152826;
+  color: #f5f5f5;
+  display: inline-block;
+  width: 10rem;
+}
+.dawgg-one a:hover, .dawgg-two a:hover, .dawgg-three a:hover, .dawgg-four a:hover, .dawgg-five a:hover, .dawgg-six a:hover, .dawgg-seven a:hover, .dawgg-eight a:hover {
+  transform: scale(1.1);
+}
+.dawgg-one p, .dawgg-two p, .dawgg-three p, .dawgg-four p, .dawgg-five p, .dawgg-six p, .dawgg-seven p, .dawgg-eight p {
+  font-size: 1.6rem;
+}
+
 .footer {
   background: #152826;
 }
@@ -362,13 +405,14 @@ body {
 }
 .footer-icon {
   padding: 2rem 7rem;
+  display: flex;
+  justify-content: center;
 }
 .footer-icon ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
-  margin-left: 43rem;
 }
 .footer-icon ul li {
   display: flex;
@@ -383,7 +427,8 @@ body {
   margin-left: 1rem;
 }
 .footer-text {
-  margin-left: 43rem;
+  display: flex;
+  justify-content: center;
 }
 .footer-text p {
   color: #f5f5f5;

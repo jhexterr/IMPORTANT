@@ -1,0 +1,42 @@
+.dawgg{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    position:static;
+    &-wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+        align-items: center;
+        gap: 4rem;
+        text-align: center;
+    }
+    &-one, &-two, &-three, &-four, &-five, &-six, &-seven, &-eight{
+        padding: 1rem;
+        border-radius: 3rem;
+        line-height: 3rem;
+        box-shadow: 0px 20px 20.1276px rgb(55, 55, 55);
+        &:hover{
+            transform: scale(1.1);
+        }
+        img{
+            width: 23rem;
+            height: 25rem;
+            cursor: pointer;
+        }
+        a{
+            font-size: 2rem;
+            border: 1px solid $clr-green;
+            padding: 0.5rem;
+            border-radius: 3rem;
+            background-color: $clr-green;
+            color: $clr-font;
+            display: inline-block;
+            width: 10rem;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+}

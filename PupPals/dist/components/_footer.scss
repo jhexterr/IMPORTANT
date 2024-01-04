@@ -18,12 +18,14 @@
     &-icon{
         // margin-top: 2rem;
         padding: 2rem 7rem;
+        display: flex;
+        justify-content: center;
         ul{
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center;
-            margin-left: 43rem;
+            // margin-left: 43rem;
             li{
                 display: flex;
                 font-size: 2rem;
@@ -39,7 +41,8 @@
         }
     }
     &-text{
-        margin-left: 43rem;
+        display: flex;
+        justify-content: center;
         p{
             color: $clr-font;
             font-size: 1rem;
